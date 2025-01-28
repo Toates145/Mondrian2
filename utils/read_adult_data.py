@@ -44,7 +44,7 @@ def read_data():
         intuitive_dict.append(dict())
         intuitive_number.append(0)
         intuitive_order.append(list())
-    data_file = open('data/adult.data', 'rU')
+    data_file = open('data/adult.data', 'r')
     for line in data_file:
         line = line.strip()
         # remove empty and incomplete lines
